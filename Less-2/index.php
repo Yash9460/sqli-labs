@@ -29,7 +29,7 @@ fclose($fp);
 
 
 // connectivity 
-$sql="SELECT * FROM users WHERE id=$id LIMIT 0,1";
+$sql="SELECT * FROM users WHERE id=1";
 $result=mysql_query($sql);
 $row = mysql_fetch_array($result);
 
